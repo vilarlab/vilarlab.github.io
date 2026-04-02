@@ -1,12 +1,599 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Vilar Lab</title>
-</head>
-<body>
-  <h1>Vilar Lab</h1>
-  <p>Site coming soon.</p>
-</body>
+
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Vilar Lab Computational Systems Biophysics</title>
+    <meta name="description" content="Vilar Lab Computational Systems Biophysics; Machine Learning; AI">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link type="text/css" href="cstyle.css" rel="stylesheet">
+    <style>
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Lato", sans-serif;
+      }
+
+      body,
+      html {
+        height: 100%;
+        color: #777;
+        line-height: 1.8;
+      }
+
+      /* Create a Parallax Effect */
+
+      .bgimg-1,
+      .bgimg-2,
+      .bgimg-3 {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      /* First image (Logo. Full height) */
+
+      .bgimg-1 {
+        background-image: url('msb4h.gif');
+        min-height: 200px;
+      }
+
+      /* Second image (Portfolio) */
+
+      .bgimg-2 {
+        background-image: url("msb4h.gif");
+        min-height: 100px;
+      }
+
+      /* Third image (Contact) */
+
+      .bgimg-3 {
+        background-image: url("msb4h.gif");
+        min-height: 200px;
+      }
+
+      .w3-wide {
+        letter-spacing: 10px;
+      }
+
+      .w3-hover-opacity {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar" id="myNavbar"> <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+          <i class="fa fa-bars"></i> </a> <a href="#home" class="w3-bar-item w3-button w3-hide-small">
+          HOME</a> <a href="#career" class="w3-bar-item w3-button w3-hide-small">
+          CAREER</a> <a href="#research" class="w3-bar-item w3-button w3-hide-small">
+          RESEARCH</a> <a href="#publications" class="w3-bar-item w3-button w3-hide-small">
+          PUBLICATIONS</a> <a href="#more" class="w3-bar-item w3-button w3-hide-small">
+          MORE</a> <a href="https://www.vilarlab.org" class="w3-bar-item w3-button w3-right w3-hover-brown">VILARlab</a> </div>
+      <!-- Navbar on small screens -->
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium"> <a href="#home" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a> <a href="#career" class="w3-bar-item w3-button" onclick="toggleFunction()">CAREER</a> <a href="#research" class="w3-bar-item w3-button" onclick="toggleFunction()">RESEARCH</a> <a href="#publications" class="w3-bar-item w3-button" onclick="toggleFunction()">PUBLICATIONS</a> <a href="#more" class="w3-bar-item w3-button" onclick="toggleFunction()">MORE</a> </div>
+    </div>
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+      <div class="w3-display-middle" style="white-space:nowrap;"> <br>
+        <h1 class="w3-center w3-text-black">VILAR LAB</h1>
+        <h3 class="w3-center w3-text-grey"> <span class="w3-hide-small">COMPUTATIONAL</span> <span class="w3-text-black">SYSTEMS</span>
+          BIOPHYSICS </h3>
+      </div>
+    </div>
+    <!-- Container -->
+    <div class="w3-content w3-container w3-padding-64 w3-text-black" id="home2">
+      <h3 class="w3-center">CONTACT</h3>
+      <hr>
+      <div class="w3-row">
+        <div class="w3-col m6 w3-hide-small w3-center w3-padding-large"> <br> <img src="JMGVilar.jpg" class="w3-round w3-image w3m-opacity w3m-hover-opacity-off" alt="Photo of Me" height="200" width="300"> </div>
+        <div class="w3-col m6 w3-padding-large"> <big><span style="font-weight: bold;">Jose
+              M. G. Vilar</span></big><br> <a href="https://www.ikerbasque.net/">Ikerbasque Professor</a><br> <br> Biofisika Institute (CSIC-UPV/EHU)<br> University of the Basque Country<br> P.O. Box 644, 48080 Bilbao, Spain<br> <br> <span style="font-weight: bold;">Phone:</span>&nbsp;(+34)&nbsp;94&nbsp;601&nbsp;3450
+          | <span style="font-weight: bold;">Fax:</span>&nbsp;(+34)&nbsp;94&nbsp;601&nbsp;3360<br> <span style="font-weight: bold;">E-mail:</span>
+          <script type="text/javascript">
+            <!-- // protected email script by Joe Maller
+            // JavaScripts available at https://www.joemaller.com
+            // this script is free to use and distribute
+            // but please credit me and/or link to my site
+            emailE = 'j.vilar'
+            emailE = (emailE + '@' + 'ikerbasque.org')
+            document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>')
+            //
+            -->
+          </script> <noscript><em>Email address protected by JavaScript.<br> Please enable JavaScript to contact me.</em> </noscript> | <span style="font-weight: bold;">Web:</span>&nbsp;<a href="https://www.vilarlab.org/">https://www.vilarlab.org</a><br>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <!-- Second Parallax Image -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min" id="career">
+      <div class="w3-display-middle"> <span class="w3-xxlarge w3-text-black w3-wide">CAREER</span> </div>
+    </div>
+    <!-- Container  -->
+    <div class="w3-content w3-container w3-padding-64 w3-text-black" id="career2">
+      <h3>Degrees&nbsp; </h3>
+      <ul class="refs">
+        <li>1995: B.S./M.S. in Physics, University of Barcelona </li>
+        <li>1998: Ph.D. in Physics, University of Barcelona&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br> </li>
+      </ul>
+      <h3>Appointments </h3>
+      <ul class="refs">
+        <li>1996-1998: Predoctoral Research Fellow,&nbsp; Department of Fundamental Physics, University of Barcelona </li>
+        <li>1998-2000: Postdoctoral Research Fellow, Departments of Physics and Molecular Biology, Princeton University </li>
+        <li>2000-2001: Research Associate, Howard Hughes Medical Institute, Department of Molecular Biology, Princeton University</li>
+        <li>2001-2003: Postdoctoral Associate, The Rockefeller University</li>
+        <li>2004-2008: Head of Laboratory &amp; Assistant Member, Computational Biology Program, Sloan-Kettering Institute, Memorial Sloan-Kettering Cancer Center</li>
+        <li>2005-2008: Assistant Professor of Physiology, Biophysics, and Systems Biology, Weill Graduate School of Medical Sciences, Cornell University </li>
+        <li>2008-Present: Ikerbasque Professor, Biofisika Institute (CSIC-UPV/EHU), University of the Basque Country </li>
+      </ul>
+      <h3>Honors and Awards<br>
+      </h3>
+      <ul class="refs">
+        <li><img src="logo-ce-horizontal-en-quadri-lr.png" class="w3-round w3-image w3m-opacity w3m-hover-opacity-off" alt="EU logo" height="100" width="150"> <br> Winner of the European Union Big Data Technologies Horizon Prize (<a href="https://web.archive.org/web/20181222234416/ec.europa.eu/research/horizonprize/index.cfm?pg=prizes">ec.europa.eu/research/horizonprize/index.cfm?pg=prizes</a>)</li>
+        <li>"Highlights of the Year 2014" (<a href="https://physics.aps.org/articles/v7/132">physics.aps.org/articles/v7/132</a>) by the American Physical Society to "Entropy of leukemia on multidimensional morphological and molecular landscapes" [Phys. Rev. X 4, 21038 (2014)]</li>
+        <li>Awarded "Best of 2013" by the Biophysical Society to the article "Systems Biophysics of Gene Expression" [Biophys. J. 104, 2574-2585 (2013)] </li>
+        <li>2012 Werfen-Izasa-Beckman-Coulter prize in Biophysics</li>
+        <li>Best performer (Team team21) at the DREAM6/FlowCAP2 Molecular Classification of Acute Myeloid Leukaemia Challenge ( <a href="https://www.synapse.org/Synapse:syn2887788/wiki/72181">www.synapse.org/Synapse:syn2887788/wiki/72181</a>)</li>
+      </ul>
+      <h3>Selected Review Panels</h3>
+      <ul class="refs">
+        <li>Remote Evaluator, EIC Pathfinder Open 2023, European Innovation Council (EIC).</li>
+        <li>Member of the panel <a href="https://erc.europa.eu/sites/default/files/document/file/Panel_Members_ERC_Advanced_Grant_2021.pdf">Computer
+            Science and Informatics (PE6), Advanced Grant 2021, European
+            Research Council (ERC)</a>, November 2021 &amp; February 2022, Brussels (Belgium).</li>
+        <li>Member of the panel <a href="https://erc.europa.eu/sites/default/files/document/file/Panel_Members_ERC_Advanced_Grant_2019.pdf">Computer
+            Science and Informatics (PE6), Advanced Grant 2019, European
+            Research Council (ERC)</a>, November 2019 &amp; February 2020, Brussels (Belgium).</li>
+        <li>Member of the panel <a href="https://erc.europa.eu/sites/default/files/document/file/Panel_Members_ERC_Advanced_Grant_2017.pdf">Computer
+            Science and Informatics (PE6), Advanced Grant 2017, European
+            Research Council (ERC)</a>, November 2017 &amp; February 2018, Brussels (Belgium).</li>
+        <li>Participant in the 2016 expert review panel conducted by The National Cancer Institute (NCI) Division of Cancer Biology (DCB) to assess the impact and innovativeness of research funded by NCI's Physical Sciences - Oncology Centers (PS-OC) Program,
+          NCI's Integrative Cancer Biology Program (ICBP), and NCI R01 awards.</li>
+        <li>Member of the panel <a href="https://erc.europa.eu/sites/default/files/document/file/erc_2015_adg_panel_members.pdf">Computer
+            Science and Informatics (PE6), Advanced Grant 2015, European
+            Research Council (ERC)</a>, September 2015 &amp; January 2016, Brussels (Belgium).</li>
+        <li>Member of the <a href="https://public.era.nih.gov/pubroster/jsp/preSepIndex.jsp?AGENDA=215110&amp;CID=100456">2009
+            Scientific Review Panel on Physical Sciences-Oncology Centers (U54)</a>, National Cancer Institute/National Institutes of Health, June 2009, Bethesda (Maryland, USA).</li>
+        <li>Member of the 2007 and 2008 Scientific Review Panels of the New Jersey Commission on Cancer Research, Princeton (New Jersey, USA).</li>
+      </ul>
+      <h3>Editorial </h3>
+      <ul class="refs">
+        <li>2021-Present: Associate Editor, <a href="https://www.frontiersin.org/">Frontiers in Systems Biology</a></li>
+        <li>2021-2024: Editorial Board Member, <a href="https://www.mdpi.com/journal/Foundations">Foundations</a></li>
+        <li>2020-Present: Editorial Board Member, <a href="https://www.mdpi.com/journal/biology">Biology</a></li>
+        <li>2017-Present: Advisory Editor, <a href="https://link.springer.com/journal/249">European
+            Biophysics Journal</a></li>
+        <li>2015-2022: Academic Editor, <a href="https://www.plosone.org/">PLoS
+            ONE</a> </li>
+        <li>2014: <span style="font-style: italic;">Ad hoc</span> Associate Editor, <a href="https://journals.aps.org/prx/">Physical Review X</a></li>
+        <li>2012-2024: Editorial Board Member, <a href="https://www.iospress.nl/journal/in-silico-biology/"><span style="font-style: italic;">In
+              Silico</span> Biology</a><a href="https://journals.aps.org/prx/"></a></li>
+        <li>2008-2019: Associate Editor, <a href="https://www.biomedcentral.com/bmcsystbiol/">BMC
+            Systems biology</a></li>
+        <li>2007: <span style="font-style: italic;">Ad hoc</span> Divisional Associate Editor, <a href="https://journals.aps.org/prl/">Physical
+            Review Letters</a></li>
+      </ul>
+    </div>
+    <!-- Second Parallax Image -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min" id="research">
+      <div class="w3-display-middle"> <span class="w3-xxlarge w3-text-black w3-wide">RESEARCH</span> </div>
+    </div>
+    <!-- Container  -->
+    <div class="w3-content w3-container w3-padding-64 w3-text-black" id="research2"> The traditional experimental approach to the study of the functioning of cells has been remarkably successful at identifying cellular components and their interactions. Current automated technologies have brought the cartoon-like representations of
+      cellular processes to exponentially growing webs of nodes and links that seem as close to completion as ever. The complexity of the emerging picture, however, makes it clear that all this information by itself is not enough to truly understand processes
+      such as cancer. In order to piece back together all the genetic, biochemical, molecular, and structural information into a physiologically relevant description of the cell, one needs "constructive" methods. Computational modeling has emerged as a
+      promising tool for transforming molecular detail into a more integrated form of understanding complex behavior. <br> <br> We use computational and mathematical modeling to study biological networks that are relevant to cancer. We are interested, not
+      only in the interactions between cellular components, but also in the resulting cellular behavior and its integration into the physiological context of an organism. We study computationally how mutations affect the molecular properties of the cellular
+      components; how the mutated components affect different pathways; and how these modified pathways confer cell-growth advantages during tumor progression and metastasis. Having a global view of all these processes and their effects through all relevant
+      levels of biological organization is crucial to identify and characterize the key control elements of the system.<br> <br> We are currently working on:<br>
+      <ul>
+        <li>Gene regulation (RXR and other nuclear hormone receptors)</li>
+        <li>Signal transduction (EGF and TGF-β pathways)</li>
+        <li>Control of cell growth and death (Bcl-2/Bax in metabolism and apoptosis) </li>
+      </ul> We are also developing new computational approaches to determine, capture, and use the relevant biological information. We are especially interested in stochastic analyses and in multilevel and multiscale methods.
+    </div>
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'"> <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+      <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64"> <img id="img01" class="w3-image">
+        <p id="caption" class="w3-opacity w3-large"></p>
+      </div>
+    </div>
+    <!-- Second Parallax -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min" id="publications">
+      <div class="w3-display-middle"> <span class="w3-xxlarge w3-text-black w3-wide">PUBLICATIONS</span> </div>
+    </div>
+    <!-- Container -->
+    <div class="w3-content w3-container w3-padding-64 w3-text-black" id="publications3">
+      <h3>Press on our research</h3>
+      <h3>
+        <div style="margin-left: 80px;"><a href="https://www.nytimes.com/2001/02/06/science/in-the-mysterious-microscopic-world-noise-begets-silence.html"> <img alt="NYTlogo" src="NYTlog.gif" style="border: 0px solid ; width: 248px; height: 55px; "></a> &nbsp;&nbsp;|&nbsp; <a href="https://www.nature.com/news/1998/010215/full/news010215-12.html"> <img alt="NATURElogo" src="nature.gif" style="border: 0px solid ; width: 200px; height: 55px; "></a>&nbsp; &nbsp;|&nbsp;
+          <a href="https://www.trnmag.com/Stories/030701/Noise_can_bring_quiet_surprise_030701.html"> <img alt="TRNlogo" src="TRNlogo.gif" style="border: 0px solid ; width: 180px; height: 55px; "></a>&nbsp;
+        </div>
+      </h3> <br>
+      <h3>Open Source Software</h3>
+      <ul class="refs">
+        <li>J. M. G. Vilar and L. Saiz (2025), Enhanced Ensemble Learning for Olfactory Mixture Prediction: A Coupled Deep Learning Approach, <a href="https://www.synapse.org/#!Synapse:syn68587196">https://www.synapse.org/#!Synapse:syn68587196</a></li>
+        <li>J. M. G. Vilar and L. Saiz (2024), Combined Molecular and Perceptual Machine Learning Approach for Odor Mixture Discrimination, <a href="https://www.synapse.org/#!Synapse:syn61416538">https://www.synapse.org/#!Synapse:syn61416538</a></li>
+        <li>J. M. G. Vilar and L. Saiz (2023), Dynamics-informed deconvolutional neural networks for super-resolution identification of regime changes in epidemiological time series, <a href="https://github.com/DIDNN/NPIs">https://github.com/DIDNN/NPIs</a> </li>
+        <li>J. M. G. Vilar and L. Saiz (2019), Scaling and Regression over Nearest Neighbors for Single-Cell Signaling Prediction in Breast Cancer, <a href="https://www.synapse.org/Synapse:syn21188145">https://www.synapse.org/Synapse:syn21188145</a> </li>
+        <li>J. M. G. Vilar (2018), Data-driven prediction of electricity grid traffic (winner solution of the European Union Big Data Technologies Horizon Prize <a href="https://web.archive.org/web/20181216083518/https://ec.europa.eu/research/horizonprize/index.cfm?prize=bigdata"> https://ec.europa.eu/research/horizonprize/index.cfm?prize=bigdata</a>). Repository available at <a href="https://github.com/jmgvilar/H2020BigDataPrize/"> https://github.com/jmgvilar/H2020BigDataPrize/</a></li>
+        <li>J. M. G. Vilar and L. Saiz (2017), Combined ridge, support-vector, and random-forest regression approach for odor prediction, <a href="https://www.synapse.org/Synapse:syn3794504">https://www.synapse.org/Synapse:syn3794504</a> </li>
+        <li>J. M. G. Vilar (2014), Predicting the overall survival time of AML patients using marginal probability ratios, <a href="https://www.synapse.org/Synapse:syn2702223">https://www.synapse.org/Synapse:syn2702223</a></li>
+        <li>J. M. G. Vilar (2014), Predicting remission duration in AML patients with Complete Remission using marginal probability ratios, <a href="https://www.synapse.org/Synapse:syn2702224">https://www.synapse.org/Synapse:syn2702224</a></li>
+        <li>J. M. G. Vilar (2014), Predicting Complete Remission or Primary Resistance in AML patients using marginal probability ratios, <a href="https://www.synapse.org/Synapse:syn2702225">https://www.synapse.org/Synapse:syn2702225</a> </li>
+        <li>"CplexA" (released on April 19th, 2010/updated on December 12th, 2012) is a software package (available for Mathematica, Python, and Matlab) to compute probabilities and average properties of macromolecular assembly and its effects in gene regulation.
+          CplexA and the tutorial are available at <a href="https://sourceforge.net/projects/cplexa/">https://sourceforge.net/projects/cplexa/</a></li>
+      </ul>
+      <h3>Preprints</h3>
+      <ul class="refs">
+        <li>J. M. G. Vilar and L. Saiz, <a href="https://arxiv.org/abs/2602.19775">Exact Discrete Stochastic Simulation with Deep-Learning-Scale Gradient Optimization</a>, arXiv:2602.19775 (2026).</li>
+        <li>J. M. G. Vilar, <a href="https://arxiv.org/abs/1902.04337"> Winning the Big Data Technologies Horizon Prize: Fast and reliable forecasting of electricity grid traffic by identification of recurrent fluctuations</a>, arXiv:1902.04337 (2019).</li>
+      </ul>
+
+      <h3>Articles in journals </h3>
+      <ul class="refs">
+        <li>J. M. G. Vilar and L. Saiz, <a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202413153">Actionable Forecasting as a Determinant of Biological Adaptation</a>, Advanced Science <span style="font-weight: bold;">12</span>, 2413153 (2025). </li>
+        <li>J. M. G. Vilar, J. M. Rubi, and L. Saiz, <a href="https://journals.aps.org/prx/abstract/10.1103/PhysRevX.15.011041">Chaperone-Driven Entropic Separation of Amyloid Nanofilament Bundles</a>, Phys. Rev. X <span style="font-weight: bold;">15</span>, 011041 (2025). </li>
+        <li>J. M. G. Vilar, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0169207024001341">Quasi-average predictions and regression to the trend: An application to the M6 financial forecasting competition</a>, Int. J. Forecast. <span style="font-weight: bold;">41</span>, 1505 (2025). </li>
+        <li>J. M. G. Vilar and L. Saiz, <a href="https://www.sciencedirect.com/science/article/abs/pii/S2405471224001789">The unreasonable effectiveness of equilibrium gene regulation through the cell cycle</a>, Cell Systems <span style="font-weight: bold;">15</span>, 639-648 (2024). </li>
+        <li>J. M. G. Vilar and L. Saiz, <a href="https://www.science.org/doi/10.1126/sciadv.adf0673">Dynamics-informed deconvolutional neural networks for super-resolution identification of regime changes in epidemiological time series</a>, Science Advances <span style="font-weight: bold;">9</span>, eadf0673 (2023). </li>
+        <li>J. M. G. Vilar and L. Saiz, <a href="https://www.nature.com/articles/s41598-023-37140-x"> Multi-landmark alignment of genomic signals reveals conserved expression patterns across transcription start sites</a>, Scientific Reports <span style="font-weight: bold;">13</span>: 10835 (2023).</li>
+        <li>C. Chang, M. Garcia-Alcala, L. Saiz, J. M. G. Vilar, and P. Cluzel, <a href="https://www.pnas.org/doi/10.1073/pnas.2200061119">Robustness of DNA Looping Across Multiple Cell Divisions in Individual Bacteria</a>, Proc. Natl. Acad. Sci. USA <span style="font-weight: bold;">119</span>, e2200061119 (2022). </li>
+        <li>J. M. G. Vilar and L. Saiz, <a href="https://royalsocietypublishing.org/doi/10.1098/rsos.210773">Ascertaining the initiation of epidemic resurgences: an application to the COVID-19 second surges in Europe and the Northeast United States</a>, Royal Society Open Science <span style="font-weight: bold;">10</span>, 210773 (2021). </li>
+        <li>A. Franco, P. Gracia, A. Colom, J. D. Camino, J. A. Fernandez-Higuero, N. Orozco, A. Dulebo, L. Saiz, N. Cremades, J. M. G. Vilar, A. Prado, A. Muga, <a href="https://www.pnas.org/doi/10.1073/pnas.2105548118">All-or-none amyloid disassembly via chaperone-triggered fibril unzipping favors clearance of α-synuclein toxic species</a>, Proc. Natl. Acad. Sci. USA <span style="font-weight: bold;">118</span>, e2105548118 (2021). </li>
+        <li>J. M. G. Vilar and L. Saiz, <a href="https://www.nature.com/articles/s41598-021-99273-1">Reliably quantifying the evolving worldwide dynamic state of the COVID-19 outbreak from death records, clinical parametrization, and demographic data</a>, Scientific Reports <span style="font-weight: bold;">11</span>, 19952 (2021). </li>
+        <li>A. Gabor, M. Tognetti, A. Driessen, J. Tanevski, B. Guo, W. Cao, H. Shen, T. Yu, V. Chung, Single Cell Signaling in Breast Cancer DREAM Consortium (*), Bernd Bodenmiller, Julio Saez-Rodriguez (* including J. M. G. Vilar), <a href="https://www.embopress.org/doi/full/10.15252/msb.202110402">Cell-to-cell and type-to-type heterogeneity of signaling networks: Insights from the crowd</a>, Molecular Systems Biology <span style="font-weight: bold;">17</span>, e10402 (2021). </li>
+        <li>J. A. Fernandez-Higuero, A. Muga, J. M. G. Vilar, <a href="https://www.sciencedirect.com/science/article/pii/S0022283620302230"> Extraction and Refolding Determinants of Chaperone-Driven Aggregated Protein Reactivation</a>,
+          J. Mol. Biol. <span style="font-weight: bold;">432</span>, 3239-3250 (2020). </li>
+        <li>Y. Cabrera, L. Dublang, J. A. Fernandez-Higuero, D. Albesa-Jove, M. Lucas, A. R. Viguera, M. E. Guerin, J. M. G. Vilar, A. Muga, F. Moro, <a href="https://www.sciencedirect.com/science/article/pii/S0022283618307812"> Regulation of human Hsc70 ATPase and chaperone activities by Apg2: role of the acidic subdomain</a>,
+          J. Mol. Biol. <span style="font-weight: bold;">431</span>, 444-461 (2019). </li>
+        <li>M. L. Fanani, J. V. Busto, J. Sot, J. Abad, G. Fabrias, L. Saiz, J. M. G. Vilar, F. M. Goni, B. Maggio, and A. Alonso, <a href="https://pubs.acs.org/doi/10.1021/acs.langmuir.8b02198">Clearly
+            Detectable, Kinetically Restricted Solid-Solid Phase Transition in
+            cis-Ceramide Monolayers</a>, Langmuir <span style="font-weight: bold;">34</span>, 11749-11758 (2018). </li>
+        <li>J. M. G. Vilar and J. M. Rubi, <a href="https://www.nature.com/articles/s41598-017-18976-6">
+            Determinants of population responses to environmental fluctuations</a>, Scientific Reports <span style="font-weight: bold;">8</span>: 887 (2018). </li>
+        <li>J. M. G. Vilar and L. Saiz, <a href="https://www.ehu.eus/biologiacomputacional/reprints/CellSys_PIIS240547121730443X.pdf">Computing
+            at the front-end by receptor networks</a>, Cell Systems<span style="font-weight: bold;"></span> <span style="font-weight: bold;">5</span>, 316-318 (2017).</li>
+        <li>A. Keller, R.C. Gerkin, Y. Guan, A. Dhurandhar, G. Turu, B. Szalai, J.D. Mainland, Y. Ihara, C.W. Yu., R. Wolfinger, C. Vens, L. Schietgat, K. De Grave, R. Norel, DREAM Olfaction Prediction Consortium (*), G. Stolovitzky, G.A. Cecchi, L.B. Vosshall,
+          P. Meyer (* including J.M.G. Vilar), <a href="https://science.sciencemag.org/content/355/6327/820">Predicting
+            human olfactory perception from chemical features of odor molecules</a>, Science <span style="font-weight: bold;">355</span>, 820-826 (2017). </li>
+        <li>D.P. Noren, B.L. Long, R. Norel, K. Rrhissorrakrai, K. Hess, C.W. Hu, A.J. Bisberg, A. Schultz, E. Engquist, L. Liu, X. Lin, G.M. Chen, H. Xie, G.A.M. Hunter, P.C. Boutros, O. Stepanov, DREAM 9 AML-OPC Consortium (*), T. Norman, S.H. Friend, G.
+          Stolovitzky, S. Kornblau, A.A. Qutub (* including J.M.G. Vilar), <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004890">A
+            Crowdsourcing Approach to Developing and Assessing Prediction
+            Algorithms for AML Prognosis</a>, PLoS Comput. Biol. <b>12</b>: e1004890 (2016).</li>
+        <li>J. M. G. Vilar and L. Saiz, <a href="https://www.ehu.eus/biologiacomputacional/reprints/PhysRevE.89.062703.pdf">Suppression
+            and enhancement of transcriptional noise by DNA looping</a>, Phys. Rev. E <span style="font-weight: bold;">89</span>, 062703 (2014). </li>
+        <li>J. M. G. Vilar, <a href="https://journals.aps.org/prx/abstract/10.1103/PhysRevX.4.021038">Entropy
+            of Leukemia on Multidimensional Morphological and Molecular
+            Landscapes</a>, Phys. Rev. X <span style="font-weight: bold;">4</span>, 021038 (2014). </li>
+        <li>J. M. G. Vilar and J. M. Rubi, <a href="https://scitation.aip.org/content/aip/journal/jcp/140/20/10.1063/1.4879553">Communication:
+            System-size scaling of Boltzmann and alternate Gibbs entropies</a>, J. Chem. Phys. <span style="font-weight: bold;">140</span>, 201101 (2014). </li>
+        <li>J. M. G. Vilar and L. Saiz, <a href="https://www.ehu.eus/biologiacomputacional/reprints/BiophysJ_2013_2574.pdf">Systems
+            Biophysics of Gene Expression</a>, Biophys. J. <span style="font-weight: bold;">104</span>, 2574-2585 (2013). </li>
+        <li>J. M. G. Vilar and L. Saiz, <a href="https://www.ehu.eus/biologiacomputacional/reprints/ACSSynthBiol_2013_576.pdf">Reliable
+            prediction of complex phenotypes from a modular design in free
+            energy space: an extensive exploration of the lac operon</a>, ACS Synth. Biol. <span style="font-weight: bold;">2</span>, 576-586 (2013). </li>
+        <li>N. Aghaeepour, G. Finak, The FlowCAP Consortium, The DREAM Consortium (*), H. Hoos, T.R. Mosmann, R. Brinkman, R. Gottardo, and R.H. Scheuermann (* including J. M. G. Vilar), <a href="https://www.ehu.eus/biologiacomputacional/reprints/nmeth.2365.pdf">Critical
+            assessment of automated flow cytometry data analysis techniques</a>, Nature Methods <span style="font-weight: bold;">10</span>, 228-238 (2013). Supplementary Information [<a href="https://www.ehu.eus/biologiacomputacional/reprints/nmeth.2365-S1.pdf">pdf</a>].
+        </li>
+        <li>J. M. G. Vilar and J. M. Rubi, <a href="https://www.ehu.eus/biologiacomputacional/reprints/JChemPhys_2012_064115.pdf">Far-from-equilibrium
+            processes without net thermal exchange via energy sorting</a>, J. Chem. Phys. <span style="font-weight: bold;">136</span>, 064115 (2012). </li>
+        <li>J. M. G. Vilar and L. Saiz, <a href="https://www.ehu.eus/biologiacomputacional/reprints/BiophysJ_2011_2315.pdf">Trafficking
+            Coordinate Description of Intracellular Transport Control of
+            Signaling Networks</a>, Biophys. J. <span style="font-weight: bold;">101</span>, 2315-2323 (2011).</li>
+        <li>J. M. G. Vilar and L. Saiz, <a href="https://www.ehu.eus/biologiacomputacional/reprints/NAR_2011_6854.pdf">Control
+            of gene expression by modulated self-assembly</a>, Nucleic Acids Research <span style="font-weight: bold;">39</span>, 6854-6863 (2011). </li>
+        <li>J. M. G. Vilar and J. M. Rubi, <a href="https://www.ehu.eus/biologiacomputacional/reprints/jnetdy_2011_123.pdf">Work-Hamiltonian
+            connection for anisoparametric processes in manipulated microsystems</a>, J. Non-Equilib. Thermodyn. <span style="font-weight: bold;">36</span>, 123-130 (2011). </li>
+        <li>N. Geisel, J. M. G. Vilar, and J. M. Rubi, <a href="https://www.ehu.eus/biologiacomputacional/reprints/journal.pone.0018622.pdf">Optimal
+            Resting-Growth Strategies of Microbial Populations in Fluctuating
+            Environments</a>, PLoS One <span style="font-weight: bold;">6</span>, e18622 (2011).</li>
+        <li>J. M. G. Vilar, <a href="https://www.ehu.eus/biologiacomputacional/reprints/BMCsb_2010_152.pdf">Noisy-threshold
+            control of cell death</a>, BMC Systems Biology <span style="font-weight: bold;">4</span>, 152 (2010). </li>
+        <li>J. M. G. Vilar, <a href="https://www.ehu.eus/biologiacomputacional/reprints/BiophysJ_2010_2408.pdf">Accurate
+            Prediction of Gene Expression by Integration of DNA Sequence
+            Statistics with Detailed Modeling of Transcription Regulation</a>, Biophys. J. <span style="font-weight: bold;">99</span>, 2408-2413 (2010). </li>
+        <li>J. M. G. Vilar and L. Saiz, <a href="https://www.ehu.eus/biologiacomputacional/reprints/Bioinf_2010_2060.pdf">CplexA:
+            a Mathematica package to study macromolecular-assembly control of
+            gene expression</a>, Bioinformatics <span style="font-weight: bold;">26</span>, 2060-2061 (2010). Supplementary Information: Supplementary Data files 1 [<a href="https://www.ehu.eus/biologiacomputacional/reprints/Bioinf_2010_2060_SI.pdf">pdf</a>]
+          and 2 [<a href="https://www.ehu.eus/biologiacomputacional/reprints/Bioinf_2010_2060_SI.nb">nb</a>]. </li>
+        <li>L. Saiz and J. M. G. Vilar, <a href="https://www.ehu.eus/biologiacomputacional/reprints/IETSB_2008.pdf">Protein-protein/DNA
+            interaction networks: versatile macromolecular structures for the
+            control of gene expression</a>, IET Systems Biology <span style="font-weight: bold;">2</span>, 247-255 (2008).</li>
+        <li>J. M. G. Vilar and J. M. Rubi, <a href="https://www.ehu.eus/biologiacomputacional/reprints/PhysRevLett_100_020601.pdf">Failure
+            of the Work-Hamiltonian Connection for Free-Energy Calculations</a>, Phys. Rev. Lett. <span style="font-weight: bold;">100</span>, 020601 (2008). </li>
+        <li>L. Saiz and J. M. G. Vilar, <a href="https://www.ehu.eus/biologiacomputacional/reprints/NAR_2008_726.pdf"><span style="font-style: italic;">Ab
+              initio</span> thermodynamic modeling of distal multisite
+            transcription regulation</a>, Nucleic Acids Research <span style="font-weight: bold;">36</span>, 726-731 (2008).</li>
+        <li>M. H. Vainstein, J. M. Rubi and J. M. G. Vilar, <a href="https://www.ehu.eus/biologiacomputacional/reprints/epjst_2007_177.pdf">Stochastic
+            population dynamics in turbulent fields</a>, Eur. Phys. J. ST <span style="font-weight: bold;">146</span>, 177-187 (2007).</li>
+        <li>L. Saiz and J. M. G. Vilar, <a href="https://www.ehu.eus/biologiacomputacional/reprints/journal.pone.0000355.pdf">Multilevel
+            deconstruction of the in vivo behavior of looped DNA-protein
+            complexes</a>, PLoS One <span style="font-weight: bold;">2</span>, e355 (2007).</li>
+        <li>W. Y. Shou, S. Ram, and J. M. G. Vilar, <a href="https://www.ehu.eus/biologiacomputacional/reprints/pnas_2007_1877.pdf">Synthetic
+            cooperation in engineered yeast populations</a>, Proc. Natl. Acad. Sci. USA <span style="font-weight: bold;">104</span>, 1877-1882 (2007). </li>
+        <li>J. M. G. Vilar and L. Saiz, <a href="https://www.ehu.eus/biologiacomputacional/reprints/prl_2006_238103.pdf">Multiprotein
+            DNA looping</a>, Phys. Rev. Lett. <span style="font-weight: bold;">96</span>, 238103 (2006).</li>
+        <li>L. Saiz and J. M. G. Vilar, <a href="https://www.ehu.eus/biologiacomputacional/reprints/cosb_2006_344.pdf">DNA
+            looping: the consequences and its control</a>, Curr. Opin. Struct. Biol. <span style="font-weight: bold;">16</span>, 344-350 (2006). </li>
+        <li>L. Saiz and J. M. G. Vilar, <a href="https://www.ehu.eus/biologiacomputacional/reprints/msb4100061.pdf">Stochastic
+            dynamics of macromolecular-assembly networks</a>,&nbsp; Molecular Systems Biology <span style="font-weight: bold;">2</span>, 0024 (2006). </li>
+        <li>J. M. G. Vilar, <a href="https://www.ehu.eus/biologiacomputacional/reprints/msb4100058.pdf">Modularizing gene
+            regulation</a>, Molecular Systems Biology <span style="font-weight: bold;">2</span>, 0016 (2006).</li>
+        <li>J. M. G. Vilar, R. Jansen, and C. Sander, <a href="https://www.ehu.eus/biologiacomputacional/reprints/ploscb_2006_e3.pdf">Signal
+            processing in the TGF-β superfamily ligand-receptor network</a>, PLoS Comput. Biol. <span style="font-weight: bold;">2</span>, e3 (2006). </li>
+        <li>L. Saiz, J. M. Rubi, and J. M. G. Vilar, <a href="https://www.ehu.eus/biologiacomputacional/reprints/pnas_2005_17642.pdf">Inferring
+            the in vivo looping properties of DNA</a>, Proc. Natl. Acad. Sci. USA <span style="font-weight: bold;">102</span>, 17642-17645 (2005).</li>
+        <li>D. Reguera, J. M. Rubi, and J. M. G. Vilar, <a href="https://www.ehu.eus/biologiacomputacional/reprints/jpcb_2005_21502.pdf">The
+            Mesoscopic Dynamics of Thermodynamic Systems</a>, J. Phys. Chem. B <span style="font-weight: bold;">109</span>, 21502-21515 (2005).</li>
+        <li>J. M. G. Vilar and L. Saiz, <a href="https://www.ehu.eus/biologiacomputacional/reprints/cogd_2005_136.pdf">DNA
+            looping in gene regulation: From the assembly of macromolecular
+            complexes to the control of transcriptional noise</a>, Curr. Opin. Genet. Dev. <span style="font-weight: bold;">15</span>, 136-144 (2005). </li>
+        <li>E. Korobkova, T. Emonet, J. M. G. Vilar, T. S. Shimizu, P. Cluzel, <a href="https://www.ehu.eus/biologiacomputacional/reprints/nature_2004_574.pdf">From
+            molecular noise to behavioural variability in a single bacterium</a>, Nature <span style="font-weight: bold;">428</span>, 574-578 (2004).&nbsp; </li>
+        <li>J. M. G. Vilar and S. Leibler, <a href="https://www.ehu.eus/biologiacomputacional/reprints/jmb_2003_331.pdf">DNA
+            looping and physical constrains on transcription regulation</a>, J. Mol. Biol. <span style="font-weight: bold;">331</span>, 981-989 (2003). </li>
+        <li>&nbsp;J. M. G. Vilar, C. C. Guet, and S. Leibler, <a href="https://www.ehu.eus/biologiacomputacional/reprints/jcb_2003_471.pdf">Modeling
+            network dynamics: the lac operon, a case study</a>, J. Cell Biol. <span style="font-weight: bold;">161</span>, 471-476 (2003).</li>
+        <li>J. M. G. Vilar, R. V. Sole, and J. M. Rubi, <a href="https://www.ehu.eus/biologiacomputacional/reprints/physa_2003_239.pdf">On
+            the origin of plankton patchiness</a>, Physica <span style="font-weight: bold;">A
+            317</span>, 239-246 (2002). </li>
+        <li>Jose M. G. Vilar, Hao Yuan Kueh, Naama Barkai, and Stanislas Leibler, <a href="https://www.ehu.eus/biologiacomputacional/reprints/pnas_2002_5988.pdf">Mechanisms of
+            noise-resistance in genetic oscillators</a>, Proc. Natl. Acad. Sci. USA <span style="font-weight: bold;">99</span>, 5988-15992 (2002).&nbsp; </li>
+        <li>J. M. G. Vilar and J. M. Rubi, <a href="https://www.ehu.eus/biologiacomputacional/reprints/pnas_2001_11081.pdf">Thermodynamics
+            "beyond" local equilibrium</a>,&nbsp; Proc. Natl. Acad. Sci. USA <span style="font-weight: bold;">98</span>, 11081-11084 (2001).&nbsp; </li>
+        <li>J. M. G. Vilar and J. M. Rubi, <a href="https://www.ehu.eus/biologiacomputacional/reprints/prl_2001_950.pdf">Noise
+            suppression by noise</a>, Phys. Rev. Lett. <span style="font-weight: bold;">86</span>, 950-953 (2001).&nbsp; </li>
+        <li>L. Saiz, J. M. G. Vilar, and J. M. Rubi, <a href="https://www.ehu.eus/biologiacomputacional/reprints/physa_2001_51.pdf">Field-induced
+            force-suppression in ferromagnetic colloids</a>, Physica <span style="font-weight: bold;">A
+            293</span>, 51-58 (2001). </li>
+        <li>J. M. G. Vilar and J. M. Rubi, <a href="https://www.ehu.eus/biologiacomputacional/reprints/physa_2000_327.pdf">Ordering
+            periodic spatial structures by non-equilibrium fluctuations</a>, Physica <span style="font-weight: bold;">A 277</span>, 327-334 (2000). </li>
+        <li>J. M. Rubi and J. M. G. Vilar, <a href="https://www.ehu.eus/biologiacomputacional/reprints/jpcm_2000_a75.pdf">The
+            Rheology of Field-Responsive Suspensions</a>, J. Phys.: Cond. Matter&nbsp; <span style="font-weight: bold;">12</span>, A75-A84 (2000). </li>
+        <li>A. Perez-Madrid, T. Alarcon, J.M.G. Vilar, and J. M. Rubi, <a href="https://www.ehu.eus/biologiacomputacional/reprints/physa_1999_403.pdf">Mesoscopic
+            Approach to the "Negative'' Viscosity Effect in Ferrofluids</a>, Physica <span style="font-weight: bold;">A 270</span>, 403-412 (1999). </li>
+        <li>J. M. G. Vilar, R. V. Sole, and J. M. Rubi, <a href="https://www.ehu.eus/biologiacomputacional/reprints/pre_1999_5920.pdf">Noise
+            and Periodic Modulations in Neural Excitable Media</a>, Phys. Rev. E&nbsp; <span style="font-weight: bold;">59</span>, 5920-5928 (1999).</li>
+        <li>J. M. G. Vilar and J. M. Rubi, <a href="https://www.ehu.eus/biologiacomputacional/reprints/physa_1999_1.pdf">Scaling
+            Concepts in Periodically Modulated Noisy Systems</a>, Physica <span style="font-weight: bold;">A
+            264</span>, 1-14 (1999). </li>
+        <li>J. M. G. Vilar, G. Gomila and J. M. Rubi, <a href="https://www.ehu.eus/biologiacomputacional/reprints/prl_1998_14.pdf">Stochastic
+            Resonance in Noisy Nondynamical Systems</a>, Phys. Rev. Lett. <span style="font-weight: bold;">81</span>, 14-17 (1998). </li>
+        <li>J. M. G. Vilar and R. V. Sole, <a href="https://www.ehu.eus/biologiacomputacional/reprints/prl_1998_4099.pdf">Effects
+            of Noise in Symmetric Two-Species Competition</a>, Phys. Rev. Lett. <span style="font-weight: bold;">80</span>, 4099-4102 (1998).</li>
+        <li>J. M. G. Vilar and J. M. Rubi, <a href="https://www.ehu.eus/biologiacomputacional/reprints/pre_1997_R32.pdf">Effect
+            of the Output of the System in Signal Detection</a>, Phys. Rev. E <span style="font-weight: bold;">56</span>, 32R-35R (1997). </li>
+        <li>J. M. G. Vilar and J. M. Rubi, <a href="https://www.ehu.eus/biologiacomputacional/reprints/prl_1997_2882.pdf">Stochastic
+            Multiresonance</a>, Phys. Rev. Lett. <span style="font-weight: bold;">78</span>, 2882-2885 (1997).&nbsp; </li>
+        <li>J. M. G. Vilar and J. M. Rubi, <a href="https://www.ehu.eus/biologiacomputacional/reprints/prl_1997_2886.pdf">Spatiotemporal
+            Stochastic Resonance in the Swift-Hohenberg Equation</a>, Phys. Rev. Lett. <span style="font-weight: bold;">78</span>, 2886-2889 (1997).</li>
+        <li>Jose M. Gomez-Vilar and Ricard V. Sole, <a href="https://www.ehu.eus/biologiacomputacional/reprints/jpa_1996_8169.pdf">On
+            cellular automata models for quantum systems</a>, J. Phys. A <span style="font-weight: bold;">29</span>, 8169 -8171 (1996).</li>
+        <li>J. M. G. Vilar, A. Perez-Madrid, and J. M. Rubi, <a href="https://www.ehu.eus/biologiacomputacional/reprints/pre_1996_6929.pdf">Stochastic
+            Resonance in a Dipole</a>, Phys. Rev. E <span style="font-weight: bold;">54</span>, 6929-6932 (1996).</li>
+        <li>J. M. G. Vilar and J. M. Rubi, <a href="https://www.ehu.eus/biologiacomputacional/reprints/prl_1996_2863.pdf">Divergent
+            Signal-to-Noise Ratio and Stochastic Resonance in Monostable Systems</a>, Phys. Rev. Lett. <span style="font-weight: bold;">77</span>, 2863-2866 (1996). </li>
+      </ul>
+      <h3>Book chapters </h3>
+      <ul class="refs">
+        <li>J. M. G. Vilar and J. M. Rubi, <a href="https://www.ehu.eus/biologiacomputacional/reprints/Springer.Freund-Poschel.pdf">Scaling
+            of Noise and Constructive Aspects of Fluctuations</a>, in Lecture Notes in Physics: "Stochastic Processes in Physics", J. Freund and T. Poschel, eds., Springer Verlag (Berlin, Heidelberg 2000), Vol. 557: pp. 121-130 (2000). </li>
+      </ul>
+      <h3>Books </h3> <a href="sitgesbook.jpg"><img alt="SitgesBook" src="sitgesbook.jpg" width=125 align="left" border=20></a> <br> D. Reguera, J. M. G. Vilar, and J. M. Rubi (eds.), Statistical Mechanics of Biocomplexity, Lecture Notes in Physics (Springer
+      Verlag, Berlin 1999).
+    </div>
+    <!-- Second Parallax -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min" id="more">
+      <div class="w3-display-middle"> <span class="w3-xxlarge w3-text-black w3-wide">MORE</span> </div>
+    </div>
+    <!-- Container -->
+    <div class="w3-content w3-container w3-padding-64 w3-text-black" id="more2">
+      <h3>Selected invited talks</h3>
+      <ul class="refs">
+        <li>The unreasonable effectiveness of equilibrium statistical physics in gene regulation. <a href="https://fises25.gefenol.es/">XXV Congreso de Física Estadística (FisEs'25)</a>, June 2025, Santiago de Compostela (Spain).<br> </li>
+        <li>Dynamics-informed neural networks for inference and control in complex systems: From regime change detection to biological adaptation. <a href="https://www.mis.mpg.de/">Workshop on Efficient Numerical Analysis in Complexity Science</a>, May 2025, Dresden (Germany).<br> </li>
+        <li>Actionable forecasting in the noisy context of biological systems. <a href="https://www.mpipks-dresden.mpg.de/">Workshop on Information Processing, Noise, and Adaptation in Living Systems</a>, April 2024, Dresden (Germany).<br> </li>
+        <li>Dynamics-informed characterization of molecular, cellular, and population mechanisms.
+          <a href="https://www.sebiology.org/events/seb-centenary-conference-2023.html">SEB Centenary Conference 2023</a>, July 2023, Edinburg (UK).<br>
+        </li>
+        <li>Inverting convolutional neural networks for super-resolution identification of regime changes in epidemiological time series.
+          <a href="https://belbi.bg.ac.rs/">Belgrade
+            BioInformatics Conference 2023</a>, June 2023, Belgrade (Serbia).<br>
+        </li>
+        <li> Entropic separation of nanofilament bundles,
+          <a href="https://sites.google.com/fmc.ub.edusitges-conference"> XXVII Sitges Conference on Statistical
+            Mechanics: Nonequilibrium Phenomena: from Quantum to Macroscopic Scales </a>, May 2023, Sitges, Barcelona (Spain).<br>
+        </li>
+        <li>Dynamics-informed characterization of molecular, cellular, and population mechanisms,
+          <a href="https://www.bcamath.org/en/courses/2022-11-23-bcam-course">Workshop on Dynamic Modeling and Statistical
+            Inference in the Life Sciences</a>, November 2022, Bilbao (Spain). <br>
+        </li>
+        <li> Inference and prediction in biological systems at the molecular, cellular, and cell-population levels,
+          <a href="https://www.biozentrum.unibas.ch/events/past-events/seminars/basel-computational-biology-seminar-series-bc2/bc2-seminar-autumn-2019">
+            Basel Computational Biology Seminar Series </a>, October 2019, Basel (Switzerland). <br>
+        </li>
+        <li> Predicting non-equilibrium fluctuations: from single molecules to country-wide electric grids,
+          <a href="https://sites.google.com/fmc.ub.edusitges-conference"> XXVI Sitges Conference on Statistical
+            Mechanics: New Trends in Statistical Physics </a>, May 2019, Sitges, Barcelona (Spain).<br>
+        </li>
+        <li> Presentation of the winner solution of the European Union Big Data Technologies Horizon Prize. <a href="https://www.european-big-data-value-forum.eu/">
+            European Big Data Value Forum 2018</a>, November 2018, Vienna (Austria).<br> </li>
+        <li>Inference and prediction in molecular biological systems. <a href="https://belbi.bg.ac.rs/">Belgrade
+            BioInformatics Conference 2018</a>, June 2018, Belgrade (Serbia).<br> </li>
+        <li>Prediction and inference in complex biophysical systems, <a href="https://www.sbe2018.com/">6th
+            International Iberian Congress of Biophysics / X Iberoamerican
+            Congress of Biophysics</a>, June 2018, Castellon (Spain).<br> </li>
+        <li>Biophysical and Biomedical Applications of the Gibbs Entropy Postulate, <a href="https://entropy2018-1.sciforum.net/">Entropy
+            2018: From Physics to Information Sciences and Geometry</a>, May 2018, Barcelona (Spain).<br> </li>
+        <li>Computational systems biophysics of cellular processes in health and disease. <a href="https://alas.matf.bg.ac.rs/%7Ewebsites/bioinfo/">Belgrade
+            BioInformatics Conference 2016</a>, June 2016, Belgrade (Serbia).<br> </li>
+        <li>Automated diagnosis of leukemia. <a href="https://bmes.org/annualmeeting">Biomedical
+            Engineering Society Annual Meeting</a>, October 2015, Tampa (Florida). <br> </li>
+        <li>Gene expression and long-range cooperativity on DNA. <a href="https://cdsagenda5.ictp.it/full_display.php?ida=a13222">Advanced
+            Workshop on Interdisciplinary Views on Chromosome Structure and
+            Function</a>, September 2014, Trieste (Italy).</li>
+        <li>Gibbs entropy postulate: from thermodynamics "beyond" local equilibrium to biomedical applications. <a href="https://www.ffn.ub.edu/%7Esitges24">XXIV
+            Sitges Conference on Statistical Mechanics: New Horizons in
+            Statistical Physics and its Applications</a>, June 2014, Barcelona (Spain). <br> </li>
+        <li>Systems biophysics of gene expression.&nbsp; <a href="https://www.ebsa2013.org/">9th
+            European Biophysics Congress</a>, July 2013, Lisbon (Portugal). <br> </li>
+        <li>Computational biophysics of cellular processes in health and disease. <a href="https://www.sbe-bcn2012.org/index.php/xerrades/lectures.html">International
+            Congress of the Spanish Biophysical Society – SBE Barcelona 2012</a>, July 2012, Barcelona (Spain).<br> </li>
+        <li>Submicron-scale statistical thermodynamics in living systems. <a href="https://www.ffn.ub.es/%7Esitges23/">XXIII
+            Sitges Conference on Statistical Mechanics: Understanding and
+            Managing Randomness in Physics, Chemistry and Biology</a>, June 2012, Sitges, Barcelona (Spain).</li>
+        <li>Computational systems biophysics at the molecular, cellular, and cell-population levels. <a href="https://wtec.org/aphelion/">National
+            Cancer Institute (NCI) and National Science Foundation (NSF)
+            international Assessment of Physical Sciences and Engineering
+            Advances in Life Sciences and Oncology</a>, May 2012, Barcelona (Spain). <br> </li>
+        <li>Multidimensional entropies for diagnosing Acute Myeloid Leukemia from patient samples using flow cytometry data, <a href="https://recomb-dream2011.org">DREAM-RECOMB
+            annual meeting</a>, October 2011, Barcelona (Spain).<br> </li>
+        <li>Signal processing in the TGF-β superfamily ligand-receptor network. Systems Biology and Connective Tissue Disorders Meeting, February 2011, Washington, DC.<br> </li>
+        <li>From components to systems: lessons from gene regulation and synthetic cooperation. <a href="https://sysbiol.cnb.csic.es/colloquium_2010/">1st
+            colloquium of the Systems and Synthetic Biology Program of the CNB</a>, November 2010, Madrid (Spain). </li>
+        <li>Noise propagation across molecular, cellular, and cell-population scales. <a href="https://benasque.org/2010noise/">Noise in Life 2010</a>, October 2010, Benasque (Spain).</li>
+        <li>Noise propagation across molecular, cellular, and cell-population scales. <a href="https://www.mpipks-dresden.mpg.de/%7Ekronos10/">Timing
+            and
+            Dynamics in Biological Systems</a>, September 2010, Dresden (Germany). <br> </li>
+        <li>The logics of macromolecular assembly. <a href="https://ipcat2009.epfl.ch/">Information
+            Processing in Cells and Tissues: From small scale dynamics to
+            understanding systems behavior</a>, April 2009, Ascona (Switzerland). <br> </li>
+        <li>Intracellular noise and long-range interactions on DNA. <a href="https://cwp.embo.org/cfs09-03/">Spatial
+            2009, Overcoming Distance in Signaling Networks</a>, March 2009, Maale HaChamisha (Israel).<br> </li>
+        <li>From components to systems and vice versa: lessons from gene regulation and synthetic cooperation. <a href="https://www.cifar.ca/mtgs/meetings.nsf/pages/celljune12-13-08">Workshop
+            on
+            Cellular Decision Making</a>, June 2008, Toronto (Canada).</li>
+        <li>Signal processing in the TGF-β superfamily ligand-receptor network. <a href="https://www.sbmc08.de/">Conference on Systems Biology of
+            Mammalian Cells</a>, May 2008, Dresden (Germany).</li>
+        <li>Stochastic dynamics of protein-DNA complexes.&nbsp;<a href="https://www.crm.math.ca/Bio07/index_e.shtml">Workshop
+            on
+            Deconstructing
+            Biochemical Networks</a>, September 2007, Montreal (Canada).</li>
+        <li>Stochastic dynamics of protein-DNA complexes. <a href="https://cnls.lanl.gov/External/q-bio/2007/program.shtml">Information
+            Processing
+            in Cellular Signaling and Gene Regulation</a>, August 2007, Santa Fe (New Mexico).</li>
+        <li>Inferring the in vivo looping properties of DNA. <a href="https://www.mmm2006.org/">Third
+            international conference on Multiscale Materials Modeling</a>, September 2006, Freiburg (Germany).</li>
+        <li>Computational Modeling of the TGF-β Superfamily Ligand-Receptor Network. <a href="https://www.bms.ed.ac.uk/services/webspace/bsdb/BSDBautmeeting.htm">British
+            Society
+            for Developmental Biology Autumn Meeting: Signal Transduction and
+            Integration in Embryonic Development</a>, Sept 2006, Dundee (UK).</li>
+        <li>Stochastic dynamics of protein-DNA complexes. <a href="https://lcvmwww.epfl.ch/%7Elcvm/conferences/MonteVerita2006/">Workshop
+            on
+            Nanomechanics of Biomolecules</a>, August 2006, Ascona (Switzerland). </li>
+        <li>Macromolecular assembly on looped DNA. <a href="https://www.physics.rutgers.edu/%7Eanirvans/ICAM/Document1.htm">ICAM
+            workshop
+            on "Chromatin Dynamics, Gene Regulation and Silencing"</a>, August 2006, Snowmass (Colorado).</li>
+        <li>Stochastic Dynamics of Macromolecular-Assembly Networks. <a href="https://www.ffn.ub.es/sitges/">XX
+            Sitges Conference on Statistical Mechanics. Physical Biology: from
+            Molecular Interactions to Cellular Behavior</a>, June 2006, Sitges, Barcelona (Spain).&nbsp; </li>
+        <li>Stochastic Dynamics of Macromolecular-Assembly Networks. Systems Biology Discussion Group, New York Academy of Sciences, November 2005, New York (New York).&nbsp; </li>
+        <li>Stochastic Dynamics of Macromolecular-Assembly Networks. ISQBP Gilda Loew Memorial Meeting, October 2005, Staten Island (New York).</li>
+        <li>Mechanisms of Noise-resistance in Genetic Oscillators.&nbsp;SIAM Conference on the Life Sciences, July 2004, Portland (Oregon).</li>
+        <li>Mathematical analysis of gene circuits. Conference on Mathematical Modelling of Plant Development and Gene Networks, University of Warwick, May 2004, Coventry (United Kingdom).</li>
+        <li>Modeling the Networks of the Cell: Molecular, Cellular, and Population Levels. Workshop on Biological Information and Statistical Physics, July 2003, Dresden (Germany).</li>
+        <li>Modeling Noise, Switches and Clocks. Workshop on Dynamics, Adaptation and Fluctuations in Bio-networks, KITP, University of California, March 2003, Santa Barbara (California).</li>
+        <li>Noise in the cell: from molecular mechanisms to populations via network design.&nbsp;Annual American Physical Society March Meeting, March 2002, Indianapolis (Indiana).</li>
+        <li>Networking with noise at the molecular, cellular, and population level. Gordon Research Conference on Bioinformatics: From inference to Predictive Models, August 2001, Tilton (New Hampshire).</li>
+        <li>Modules of modules: from molecular interactions to cell populations. Workshop on Design and Control of Biochemical Networks, June 2001, Leiden (The Netherlands).</li>
+        <li>Ordering Periodic Spatial Structures by Noise. Workshop on Fluctuations Far From Equilibrium: Noise Induced Transport, April 1998, Dresden (Germany).</li>
+      </ul>
+      <h2><a name="People"></a>People</h2>
+      <h3>Current</h3> Jose&nbsp;Vilar (Ikerbasque Professor)<br> <br> <span style="font-style: italic;">Want to join? <a href="#Opportunities">See
+          opportunities
+          below!</a> </span><br> <br>
+      <h3>Former (VILARlab at Memorial Sloan-Kettering Cancer Center, 2004-2008)<br>
+      </h3> <a href="https://www.bme.ucdavis.edu/profiles/saiz.html">Leonor Saiz</a> (Visiting Investigator, 2004-2007)<br>
+      <div style="margin-left: 40px;">Currently, Assistant Professor of Biomedical Engineering &amp; Lab Head, University of California, Davis (2007-) <br> </div> <br> <a href="https://www.fhcrc.org/science/basic/basic_faculty.html#s">Wenying
+        Shou</a> (Postdoc, 2006-2007)<br>
+      <div style="margin-left: 40px;">Currently, Assistant Member &amp; Lab Head,&nbsp;Basic Sciences Division, Fred Hutchinson Cancer Research Center (2007-)<br> </div> <br> Anamika Sarkar (Postdoc, 2004-2005)<br>
+      <div style="margin-left: 40px;">Currently, Assistant Scientist, Iyengar Laboratory, Mount Sinai School of Medicine (2005-)<br> </div> <br> Ori Weitz (Rotation Student, Tri-i CBM program, 2006)<br> Pawel Kocieniewski (Rotation Student, Tri-i CBM program, 2007)<br> Fan Xia (Rotation
+      Student, PBSB program, 2007)<br> Ricky Chachra (Rotation Student, PBSB program, 2008)<br> Igor Segota (Rotation Student, PBSB program, 2008)<br> <span style="font-style: italic;"></span><br>
+      <h2><a name="Opportunities"></a>Opportunities</h2> <br> There are openings for Graduate Students and Postdoctoral Researchers. To apply please contact Jose Vilar at<span style="font-weight: bold;"></span>
+      <script type="text/javascript">
+        <!-- // protected email script by Joe Maller
+        // JavaScripts available at https://www.joemaller.com
+        // this script is free to use and distribute
+        // but please credit me and/or link to my site
+        emailE = 'j.vilar'
+        emailE = (emailE + '@' + 'ikerbasque.org')
+        document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>')
+        //
+        -->
+      </script><noscript><em>Email address protected by
+          JavaScript.<br>
+          Please enable JavaScript to contact me.</em>
+      </noscript>
+    </div>
+    <!-- Second Parallax -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+      <div class="w3-display-middle"> </div>
+    </div>
+    <!-- Footer -->
+    <footer class="w3-center w3-white w3-padding-64 w3-opacity w3-hover-opacity-off"> <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To
+        the top</a> </footer>
+    <div class="w3-content w3-container w3-padding-64 w3-text-black" id="contact"> <span style="font-weight: bold;"></span><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> </div> <br> Last Modified 03/06/2026<br> <br>
+    <p><a target="_top" href="https://extremetracking.com/open?login=jmgv"><img src="https://t1.extreme-dm.com/i.gif" alt="" border="0" height="38" width="41"></a>
+      <script language="javascript1.2">
+        <!--
+        EXs = screen;
+        EXw = EXs.width;
+        navigator.appName != "Netscape" ? EXb = EXs.colorDepth : EXb = EXs.pixelDepth; //
+        -->
+      </script>
+      <script language="javascript">
+        <!--
+        EXd = document;
+        EXw ? "" : EXw = "na";
+        EXb ? "" : EXb = "na";
+        EXd.write("<img src=\"https://v0.extreme-dm.com", "/0.gif?tag=jmgv&j=y&srw=" + EXw + "&srb=" + EXb + "&", "l=" + escape(EXd.referrer) + "\" height=1 width=1>"); //
+        -->
+      </script><noscript><img alt="" src="https://v0.extreme-dm.com/0.gif?tag=jmgv&j=n" height="1" width="1"></noscript>
+    </p>
+    <script src="https://efreecode.com/js.js" id="eXF-jmgv2-0" async defer></script>
+    <script>
+      // Modal Image Gallery
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+      }
+      // Change style of navbar on scroll
+      window.onscroll = function() {
+        myFunction()
+      };
+
+      function myFunction() {
+        var navbar = document.getElementById("myNavbar");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        } else {
+          navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+        }
+      }
+      // Used to toggle the menu on small screens when clicking on the menu button
+      function toggleFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+  </body>
+
 </html>

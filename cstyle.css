@@ -1,0 +1,49 @@
+a {
+  background-color: transparent;
+  text-decoration: none;
+  border-bottom-style: dotted;
+  border-bottom-width: thin;
+  color: #33a698;
+}
+a:hover {
+  background-color: #99ffee;
+}
+
+ul.refs li {
+  padding: 0.4em;
+}
+
+h37 {
+  font-weight: bold;
+  border-bottom-style: dashed;
+  border-bottom-width: thin;
+  color: #224444;
+}
+
+body {
+  font-size: 16px;
+  background-color: #ffeaea;
+  background-attachment: fixed;
+  #background-image: url(msb4hb.png);
+}
+
+bodyt {
+  font-size: 16px;
+  font-family: arial,helvetica,sans-serif;
+  color: #000000;
+  background-color: #ffeaea;
+  background-attachment: fixed;
+  #background-image: url(msb4hb.png);
+}
+
+
+hr {
+    display: block;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dashed;
+    border-width: thin;
+    color: #224444;
+}
